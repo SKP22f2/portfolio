@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sharath – Portfolio</title>
+  <style>
+    :root { --ink: #1d2433; --muted: #5b6475; --accent: #2457c5; --bg: #f7f8fb; --card: #ffffff; --line: #e3e7ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.6; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+    h1 { font-size: 2.2rem; margin: 0 0 4px; }
+    .tagline { color: var(--muted); margin: 0 0 28px; }
+    h2 { font-size: 1.15rem; margin: 36px 0 12px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
+    .card h3 { margin: 0 0 4px; font-size: 1rem; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+    .tags span { font-size: 0.78rem; background: #eef2fb; color: var(--accent); padding: 2px 8px; border-radius: 999px; }
+    a { color: var(--accent); }
+    footer { margin-top: 40px; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Sharath</h1>
+  <p class="tagline">Technical project manager and data science student (IIT Madras BS in Data Science)</p>
+
+  <h2>About</h2>
+  <p>I have over 13 years of experience delivering IT projects in financial services, with a focus on cloud migration and Agile delivery. I'm now building hands-on skills in machine learning, data analysis and the tools of modern data science.</p>
+
+  <h2>Selected work</h2>
+  <div class="card">
+    <h3>Workspace Rental Price Tier Prediction</h3>
+    <p>Kaggle classification project: exploratory analysis, reusable scikit-learn pipelines, feature engineering, and a comparison of logistic regression, random forest and LightGBM models optimised for macro F1.</p>
+    <div class="tags"><span>Python</span><span>scikit-learn</span><span>LightGBM</span><span>EDA</span></div>
+  </div>
+  <div class="card">
+    <h3>Ledger question-answering API</h3>
+    <p>A FastAPI service that answers plain-English questions about an order ledger, covering revenue, refunds, products and customers, with currency conversion and timezone-aware business dates.</p>
+    <div class="tags"><span>FastAPI</span><span>APIs</span><span>Vercel</span></div>
+  </div>
+  <div class="card">
+    <h3>Live MCP server</h3>
+    <p>A Model Context Protocol server exposing a tool over HTTPS that reads per-call request headers and returns a verified response.</p>
+    <div class="tags"><span>MCP</span><span>JSON-RPC</span><span>Python</span></div>
+  </div>
+  <div class="card">
+    <h3>NSE stock screener</h3>
+    <p>A Python pipeline that screens Indian equities using exponential moving average signals and backtests the results.</p>
+    <div class="tags"><span>pandas</span><span>Finance</span><span>Backtesting</span></div>
+  </div>
+
+  <h2>Skills</h2>
+  <p>Python, pandas, scikit-learn, SQL, FastAPI, Git, Agile/Scrum/SAFe, Jira, Azure DevOps, cloud migration.</p>
+
+  <footer>
+    Contact: <!--email_off-->22f2001490@ds.study.iitm.ac.in<!--/email_off-->
+  </footer>
+</main>
+</body>
+</html>
